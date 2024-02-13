@@ -28,7 +28,7 @@ jobs:
         docker build -t jorgeleon44/docker-graphql:0.0.2 .
     - name: Push docker image
       run: |
-        docker push jorgeleon44/docker-graphql:0.0.2 .
+        docker push jorgeleon44/docker-graphql:0.0.2
         
 
 
